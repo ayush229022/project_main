@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/categories.css">
+</head>
+<body>
+     <!-- nav bar  -->
+     <div class="container">
+        <h1 class="heading">Wild life</h1>
+        <button onclick="show()" class="btn">
+            <i class="bx bx-dots-vertical"></i>
+        </button>
+    </div>
+    <div class="content">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="categories.html">Category</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Sign in</a></li>
+        </ul>
+    </div>
+
+    <div class="body">
+        <div class="container2">
+            <div class="box">
+                <div class="imgbx">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Carnivore-lion.jpg/1280px-Carnivore-lion.jpg"
+                        alt="">
+                </div>
+                <div class="content1">
+                    <h3>HARNIVORUS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quibusdam at molestiae iure
+                        temporibus nihil incidunt fugit quis quidem! Rerum vero dolore veniam sunt numquam beatae
+                        assumenda fugit repellendus vel?
+                        Omnis neque provident consequuntur illum labore accusantium culpa aperiam eius eaque
+                        necessitatibus officia fugiat iusto rerum minima, ipsa maiores commodi eveniet dolores tenetur
+                        reprehenderit fugit! Nemo aliquid quaerat nobis incidunt!
+                        Enim, a omnis error cumque fugit rem provident incidunt quae odit labore laborum unde.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="https://drbillspetnutrition.com/wp-content/uploads/2017/01/1.-Health-Benefits.jpg" alt="">
+                </div>
+                <div class="content1">
+                    <h3>CARNIVORUS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quibusdam at molestiae iure
+                        temporibus nihil incidunt fugit quis quidem! Rerum vero dolore veniam sunt numquam beatae
+                        assumenda fugit repellendus vel?
+                        Omnis neque provident consequuntur illum labore accusantium culpa aperiam eius eaque
+                        necessitatibus officia fugiat iusto rerum minima, ipsa maiores commodi eveniet dolores tenetur
+                        reprehenderit fugit! Nemo aliquid quaerat nobis incidunt!
+                        Enim, a omnis error cumque fugit rem provident incidunt quae odit labore laborum unde.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/09/12084114/omnivore.jpg"
+                        alt="">
+                </div>
+                <div class="content1">
+                    <h3>OMNIVORUS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quibusdam at molestiae iure
+                        temporibus nihil incidunt fugit quis quidem! Rerum vero dolore veniam sunt numquam beatae
+                        assumenda fugit repellendus vel?
+                        Omnis neque provident consequuntur illum labore accusantium culpa aperiam eius eaque
+                        necessitatibus officia fugiat iusto rerum minima, ipsa maiores commodi eveniet dolores tenetur
+                        reprehenderit fugit! Nemo aliquid quaerat nobis incidunt!
+                        Enim, a omnis error cumque fugit rem provident incidunt quae odit labore laborum unde.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let links = document.querySelector('.content')
+        let list = document.querySelector('ul')
+        let section = document.querySelector('.body')
+        console.log(slider);
+        function show() {
+            links.classList.toggle('links')
+            list.classList.toggle('add')
+            section.classList.toggle('about_click')
+        }
+    </script>
+</body>
+</html>

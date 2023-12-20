@@ -1,0 +1,162 @@
+body {
+  background: rgb(44, 76, 39);
+}
+
+.heading {
+  color: #fff;
+  font-size: 45px;
+  text-shadow: 1px 2px 30px rgba(0, 0, 0, 0.562);
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #42f58d;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  margin-top: -6.5pc;
+  margin-left: -50px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+a:hover {
+  color: white;
+}
+
+ul li:hover {
+  background-color: #8a20d6;
+  border-radius: 4px;
+  border: 1px solid gray;
+  box-shadow: 1px 2px 30px;
+  cursor: pointer;
+}
+
+.btn {
+  display: none;
+}
+
+.about {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  text-shadow: 1px 2px 30px rgba(0, 0, 0, 0.562);
+  margin-left: 10px;
+}
+
+.imgText{
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 70px;
+  margin-top: 50px;
+  column-gap: 10px;
+}
+
+/* .imgText .item{
+  flex-direction:row-reverse ;
+} */
+
+.imgText div {
+  width: 500px;
+  height: auto;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 10px solid rgb(79, 79, 228);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+p {
+  color: #fff;
+  padding: 25px 25px;
+  background-color: rgb(247, 247, 247);
+  border: 2px transparent;
+  border-radius: 10px;
+  color: rgb(43, 43, 43);
+  border: 8px solid rgb(165, 236, 59);
+}
+
+/* ----------------------- Media query */
+
+@media screen and (max-width:780px) {
+  .content {
+    height: 70vh;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+    width: 0;
+    border-radius: 10px;
+    background-color: rgb(247, 105, 105);
+  }
+
+  .content ul li {
+    list-style-type: none;
+    display: block;
+    line-height: 70px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .btn {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #0c833c;
+    font-size: 30px;
+    color: aqua;
+    border-radius: 20px;
+    margin-left: -20px;
+    opacity: 1000;
+  }
+
+  .links {
+    display: flex;
+    width: 100%;
+  }
+
+  .add {
+    display: block;
+  }
+
+  .about_click {
+    display: none;
+  }
+  
+
+  .about{
+    margin-top: -20pc;
+  }
+
+
+}
